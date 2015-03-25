@@ -21,6 +21,7 @@ namespace MvcMovie.Controllers
 
         public string Welcome(string name, int ID = 1)
         {
+            //this print a string in the browser
             return HttpUtility.HtmlEncode("Hello " + name + ", ID: " + ID);
         }
     }
